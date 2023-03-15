@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/stethoscope.png);
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 180px;
+}
+.logo img{
+    height: 5vh;
+    width: 9vw;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 50px; */
+}
+.left{
+    margin-top: 20vh;
+    margin-left: 3vw;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.left p{
+    font-size: 20px;
+    color: rgb(130, 153, 153);
+    margin-top: 10px;
+}
+.left button{
+    color: white;
+    background-color:rgb(140, 161, 102);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 28vw;
+}
+img .m{
+    margin-top: 10vh;
+    height: 5px;
+    width: 2px;
+}
+.right img{
+    height:90vh;
+}
